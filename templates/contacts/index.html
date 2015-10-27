@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <table>
+    <tr>
+        <td>Name: </td>
+        <td>{{ obj.name }}</td>
+    </tr>
+        <tr>
+        <td>Surame: </td>
+        <td>{{ obj.surname }}</td>
+    </tr>
+        <tr>
+        <td>Day of birth: </td>
+        <td>{{ obj.birthday }}</td>
+    </tr>
+        <tr>
+        <td>BIO: </td>
+        <td>{{ obj.bio }}</td>
+    </tr>
+        <tr>
+        <td>Contacts: </td>
+        <td>{{ obj.contacts }}</td>
+    </tr>
+    </table>
+{% endblock %}
